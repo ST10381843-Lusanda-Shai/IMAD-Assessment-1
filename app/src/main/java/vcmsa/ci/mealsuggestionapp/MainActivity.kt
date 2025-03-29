@@ -19,20 +19,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        timeDisplay = findViewById(R.id.timeDisplay)
-        mealDisplay = findViewById(R.id.mealDisplay)
-
-        //Initialising the values for my button and what they do
+        //Initialising the values for my button, edit text and text view and what they do
+        val timeDisplay = findViewById<EditText>(R.id.timeDisplay)
+        val mealDisplay = findViewById<TextView>(R.id.mealDisplay)
         val suggestMealBtn = findViewById<Button>(R.id.suggestMealBtn)
         val resetBtn = findViewById<Button>(R.id.resetBtn)
 
+        //This is the button that the user will press to see their suggested meals.
+        suggestMealBtn.setOnClickListener {
+
+        }
+
         //This is resets all the information that the user added to the application whenever they want to try again.
         resetBtn.setOnClickListener {
-            timeDisplay?.text?.clear()
+            timeDisplay.text?.clear()
             mealDisplay?.text = ""
         }
-
-
-
+        
         }
+
     }
