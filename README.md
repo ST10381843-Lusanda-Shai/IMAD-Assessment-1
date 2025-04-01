@@ -16,6 +16,7 @@ For guidences
 4. https://www.w3schools.com/kotlin/kotlin_conditions.php
 5. https://www.w3schools.com/kotlin/kotlin_when.php
 6. https://www.w3schools.com/kotlin/kotlin_strings.php
+   
 Youtube
 1. Kotlin Android Tutorial: https://m.youtube.com/watch?v=gHDSkiUksh8
 2. MaskedProgrammer: https://m.youtube.com/watch?v=-jOEn3Vv0bM
