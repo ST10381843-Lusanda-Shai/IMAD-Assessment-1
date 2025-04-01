@@ -30,9 +30,9 @@ Image view
 
 SCREENSHOTS AND IMAGES
 
-1. file:///C:/Users/lab_services_student/Pictures/Screenshots/App screenshot1.png
-2. file:///C:/Users/lab_services_student/Pictures/Screenshots/App screenshot2.png
-3. file:///C:/Users/lab_services_student/Pictures/Screenshots/App screenshot.png
+1. ![App screenshot](https://github.com/user-attachments/assets/2932c95b-e95f-40ac-a765-607b5bd324fb)
+2. ![App screenshot1](https://github.com/user-attachments/assets/94f1aaf7-532e-44a6-8289-03a2568e9138)
+3. ![App screenshot2](https://github.com/user-attachments/assets/7aea17df-7716-416d-9f75-7f282f85f27f)
 
 Video link
 
