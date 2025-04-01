@@ -30,4 +30,10 @@ Image view
 
 SCREENSHOTS AND IMAGES
 
+file:///C:/Users/lab_services_student/Pictures/Screenshots/App screenshot1.png
+file:///C:/Users/lab_services_student/Pictures/Screenshots/App screenshot2.png
+file:///C:/Users/lab_services_student/Pictures/Screenshots/App screenshot.png
+
+Video link
+
 
