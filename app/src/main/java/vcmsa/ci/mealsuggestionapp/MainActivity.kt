@@ -55,11 +55,11 @@ class MainActivity : AppCompatActivity() {
             "Morning" -> "Cereal,Pancakes or Eggs and bacon "
             "Mid-morning" -> "Apple, Banana or Grapes"
             "Afternoon" -> "Banana bread, BLT or 2 Hot dogs"
-            "Mid Afternoon" -> "Chelsea bu, Donuts, Lays or Simba chips"
-            "Dinner" -> "Mac and Cheese, Spaghetti and Meatballs or a Large pizza from any pizzeria of your choice"
+            "Mid Afternoon" -> "Chelsea bun, Donuts, Lays or Simba chips"
+            "Evening" -> "Mac and Cheese, Spaghetti and Meatballs or a Large pizza from any pizzeria of your choice"
             "Midnight" -> "Ice-cream, Magnum, McFlurry or any flavoured piece of cake"
 
-            else -> "You have entered an invalid time of day, please enter one of the following: Morning, Mid-Morning, Afternoon, Mid-Afternoon, Dinner or Desert"
+            else -> "You have entered an invalid time of day, please enter one of the following: Morning, Mid-Morning, Afternoon, Mid-Afternoon, Evening or Desert"
         }
         //The display of the meal on the text view
         //Used the function from my history app to display the "suggestion" on my textview: "searchResult.text= matchedPerson"
