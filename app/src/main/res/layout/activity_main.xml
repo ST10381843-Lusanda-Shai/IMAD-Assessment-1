@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- The title for the application-->
     <TextView
         android:id="@+id/appTitle"
         android:layout_width="372dp"
@@ -19,19 +20,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- The edit text for the users Time of day input -->
     <EditText
         android:id="@+id/timeDisplay"
         android:layout_width="432dp"
         android:layout_height="100dp"
         android:layout_marginTop="160dp"
         android:ems="10"
-        android:hint="Enter the time of day(Morning, Afternoon, Evening, Night, Midnight)"
+        android:hint="Enter time of day"
         android:inputType="text"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- The text view which displays the meal suggestions -->
     <TextView
         android:id="@+id/mealDisplay"
         android:layout_width="424dp"
@@ -44,6 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- The button to receive the meal suggestions -->
     <Button
         android:id="@+id/suggestMealBtn"
         android:layout_width="246dp"
@@ -55,6 +59,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timeDisplay" />
 
+    <!-- The button which resets the information that was added to redo the meal suggestion -->
     <Button
         android:id="@+id/resetBtn"
         android:layout_width="246dp"
